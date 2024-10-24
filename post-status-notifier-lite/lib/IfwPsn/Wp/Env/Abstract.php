@@ -6,7 +6,7 @@
  * Sets the environment variables of a plugin
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: Abstract.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: Abstract.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @package  IfwPsn_Wp_Plugin
  */
 abstract class IfwPsn_Wp_Env_Abstract

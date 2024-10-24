@@ -16,7 +16,7 @@
  * @package    IfwPsn_Vendor_Zend_Validate
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: Isbn.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version    $Id: Isbn.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 
 /**

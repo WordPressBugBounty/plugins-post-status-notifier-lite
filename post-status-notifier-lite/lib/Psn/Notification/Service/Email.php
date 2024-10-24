@@ -3,7 +3,7 @@
  * This class handles the email sending process
  *
  * @author      Timo Reith <timo@ifeelweb.de>
- * @version     $Id: Email.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version     $Id: Email.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @copyright   Copyright (c) ifeelweb.de
  * @package     Psn_Notification
  */

@@ -3,7 +3,7 @@
  * 
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: Bootstrap.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: Bootstrap.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 class IfwPsn_Zend_Application_Bootstrap_Bootstrap extends IfwPsn_Vendor_Zend_Application_Bootstrap_Bootstrap
 {

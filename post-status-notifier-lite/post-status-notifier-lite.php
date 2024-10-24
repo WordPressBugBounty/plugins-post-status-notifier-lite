@@ -4,12 +4,12 @@ Plugin Name: Post Status Notifier Lite
 Plugin URI: http://www.ifeelweb.de/wp-plugins/post-status-notifier/
 Description: Lets you create individual notification rules to be informed about all post status transitions of your blog. Features custom email texts with many placeholders and custom post types.
 Author: Timo Reith
-Version: 1.11.6
+Version: 1.11.7
 Author URI: http://www.ifeelweb.de
 Text Domain: psn
 Requires PHP: 7.4
 Requires at least: 3.3
-Tested up to: 6.6.1
+Tested up to: 6.6.2
 */
 
 if (basename(__FILE__) === 'post-status-notifier.php') {

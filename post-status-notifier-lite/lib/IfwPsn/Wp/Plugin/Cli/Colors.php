@@ -7,7 +7,7 @@
  *
  * @author   Timo Reith <timo@ifeelweb.de>
  * @see http://www.if-not-true-then-false.com/2010/php-class-for-coloring-php-command-line-cli-scripts-output-php-output-colorizing-using-bash-shell-colors/
- * @version  $Id: Colors.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: Colors.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 class IfwPsn_Wp_Plugin_Cli_Colors
 {

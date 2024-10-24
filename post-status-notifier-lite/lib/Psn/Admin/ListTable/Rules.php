@@ -3,7 +3,7 @@
  *
  *
  * @author      Timo Reith <timo@ifeelweb.de>
- * @version     $Id: Rules.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version     $Id: Rules.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @copyright   Copyright (c) ifeelweb.de
  * @package     Psn_Admin
  */
@@ -110,7 +110,7 @@ class Psn_Admin_ListTable_Rules extends IfwPsn_Wp_Plugin_ListTable_Abstract
             $title = $item['active'] == '1' ? __('Deactivate', 'ifw') : __('Activate', 'ifw');
             $urlFormat = '?page=%s&controller=rules&appaction=%s&id=%s';
 
-            $url = wp_nonce_url(sprintf($urlFormat, $_REQUEST['page'], $appaction, $item['id']), $appaction . $item['id']);
+            $url = wp_nonce_url(sprintf($urlFormat, esc_attr($_REQUEST['page']), $appaction, $item['id']), $appaction . $item['id']);
             $output = sprintf($formatLink, $url, $title, $skinUrl, $icon);
         }
 
@@ -242,11 +242,12 @@ class Psn_Admin_ListTable_Rules extends IfwPsn_Wp_Plugin_ListTable_Abstract
         $result = htmlentities($item['name']);
 
         if (!$this->isMetaboxEmbedded()) {
+            $page = esc_attr($_REQUEST['page']);
             //Build row actions
             $actions = array();
-            $actions['edit'] = sprintf('<a href="?page=%s&controller=rules&appaction=edit&id=%s">'. __('Edit', 'psn') .'</a>', $_REQUEST['page'], $item['id']);
+            $actions['edit'] = sprintf('<a href="?page=%s&controller=rules&appaction=edit&id=%s">'. __('Edit', 'psn') .'</a>', $page, $item['id']);
             $actions['delete'] = sprintf('<a href="?page=%s&controller=rules&appaction=delete&id=%s&nonce=%s" class="delConfirm">'. __('Delete', 'psn') .'</a>',
-                $_REQUEST['page'], $item['id'], wp_create_nonce( IfwPsn_Zend_Controller_ModelBinding::getDeleteNonceAction($this->getModelMapper()->getSingular(), $item['id']) ));
+                $page, $item['id'], wp_create_nonce( IfwPsn_Zend_Controller_ModelBinding::getDeleteNonceAction($this->getModelMapper()->getSingular(), $item['id']) ));
 
             $actionsFilter = apply_filters('psn_rules_col_name_actions', array('actions' => $actions, 'item' => $item));
 

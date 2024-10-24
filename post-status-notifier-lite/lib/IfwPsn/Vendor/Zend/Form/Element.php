@@ -38,7 +38,7 @@ require_once IFW_PSN_LIB_ROOT . 'IfwPsn/Vendor/Zend/Validate/Abstract.php';
  * @subpackage Element
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: Element.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version    $Id: Element.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 class IfwPsn_Vendor_Zend_Form_Element implements IfwPsn_Vendor_Zend_Validate_Interface
 {

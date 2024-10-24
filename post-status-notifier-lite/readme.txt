@@ -5,8 +5,8 @@ Contributors: worschtebrot
 Author: Timo Reith
 Author URI: https://www.ifeelweb.de
 Requires at least: 3.3
-Tested up to: 6.6.1
-Stable tag: 1.11.6
+Tested up to: 6.6.2
+Stable tag: 1.11.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -104,6 +104,9 @@ Here you can find a detailed documentation:
 https://docs.ifeelweb.de/post-status-notifier/
 
 == Change Log ==
+
+= 1.11.7
+- Fixed: XSS security issue
 
 = 1.11.6
 - Fixed: Link to rule edit page on dashboard rule list

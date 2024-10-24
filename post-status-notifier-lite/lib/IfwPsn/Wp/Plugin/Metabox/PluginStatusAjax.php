@@ -4,7 +4,7 @@
  * For more information see http://www.ifeelweb.de/wp-plugin-framework
  *
  * @author    Timo Reith <timo@ifeelweb.de>
- * @version   $Id: PluginStatusAjax.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version   $Id: PluginStatusAjax.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @package
  */
 class IfwPsn_Wp_Plugin_Metabox_PluginStatusAjax extends IfwPsn_Wp_Ajax_Request

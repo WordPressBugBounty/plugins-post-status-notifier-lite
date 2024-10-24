@@ -7,7 +7,7 @@
  * Uses strftime (http://www.php.net/manual/de/function.strftime.php) format syntax
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: WP.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: WP.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 require_once dirname(__FILE__) . '/../../../Vendor/Twig/ExtensionInterface.php';
 require_once dirname(__FILE__) . '/../../../Vendor/Twig/Extension.php';

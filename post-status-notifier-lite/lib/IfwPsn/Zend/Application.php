@@ -3,7 +3,7 @@
  * Overwrites Zend_Application constructor for disabling the Zend Autoloader
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: Application.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: Application.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 require_once dirname(__FILE__) . '/../Vendor/Zend/Application/Bootstrap/Bootstrapper.php';
 require_once dirname(__FILE__) . '/../Vendor/Zend/Application/Bootstrap/ResourceBootstrapper.php';

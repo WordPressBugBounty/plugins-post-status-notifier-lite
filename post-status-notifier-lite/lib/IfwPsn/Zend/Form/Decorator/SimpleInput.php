@@ -3,6 +3,7 @@
 class IfwPsn_Zend_Form_Decorator_SimpleInput extends IfwPsn_Vendor_Zend_Form_Decorator_Abstract
 {
     protected $_formatText = '<label for="%s">%s</label><input id="%s" name="%s" type="text" value="%s" %s autocomplete="off" />';
+    protected $_formatNumber = '<label for="%s">%s</label><input id="%s" name="%s" type="number" value="%s" %s autocomplete="off" />';
     protected $_formatPassword = '<label for="%s">%s</label><input id="%s" name="%s" type="password" value="%s" %s autocomplete="new-password" />';
     protected $_formatTextarea = '<label for="%s">%s</label><textarea id="%s" name="%s" cols="%s" rows="%s" autocomplete="off">%s</textarea>';
     protected $_formatAceEditor = '<label for="%s">%s</label><textarea name="%s" autocomplete="off" style="display: none;">%s</textarea><div id="%s"></div>';
@@ -132,6 +133,26 @@ class IfwPsn_Zend_Form_Decorator_SimpleInput extends IfwPsn_Vendor_Zend_Form_Dec
 
             case 'IfwPsn_Vendor_Zend_Form_Element_Note':
                 $markup = sprintf($this->_formatNote, $label);
+                break;
+
+            case 'IfwPsn_Vendor_Zend_Form_Element_Number':
+                $additionalParams = '';
+                if ($element->getAttrib('min') != null) {
+                    $additionalParams .= sprintf('min="%d"', $element->getAttrib('min'));
+                }
+                if ($element->getAttrib('max') != null) {
+                    $additionalParams .= sprintf('max="%d"', $element->getAttrib('max'));
+                }
+                if ($element->getAttrib('placeholder') != null) {
+                    $additionalParams .= sprintf('placeholder="%s"', htmlspecialchars($element->getAttrib('placeholder')));
+                }
+                if ($element->getAttrib('class') != null) {
+                    $additionalParams .= sprintf('class="%s"', htmlspecialchars($element->getAttrib('class')));
+                }
+                if ($element->getAttrib('readonly') != null) {
+                    $additionalParams .= ' readonly="readonly"';
+                }
+                $markup  = sprintf($this->_formatNumber, $id, $label, $id, $name, $value, $additionalParams);
                 break;
 
             case 'IfwPsn_Vendor_Zend_Form_Element_Text':

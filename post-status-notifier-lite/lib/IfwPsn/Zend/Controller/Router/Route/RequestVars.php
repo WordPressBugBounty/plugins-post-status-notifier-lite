@@ -6,7 +6,7 @@
  * 
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: RequestVars.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: RequestVars.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @package  IfwPsn_Wp
  */
 class IfwPsn_Zend_Controller_Router_Route_RequestVars implements IfwPsn_Vendor_Zend_Controller_Router_Route_Interface

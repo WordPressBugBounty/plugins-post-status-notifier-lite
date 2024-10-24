@@ -42,7 +42,7 @@ require_once IFW_PSN_LIB_ROOT . 'IfwPsn/Vendor/Zend/Form/Decorator/Abstract.php'
  * @subpackage Decorator
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: Label.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version    $Id: Label.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 class IfwPsn_Vendor_Zend_Form_Decorator_Label extends IfwPsn_Vendor_Zend_Form_Decorator_Abstract
 {

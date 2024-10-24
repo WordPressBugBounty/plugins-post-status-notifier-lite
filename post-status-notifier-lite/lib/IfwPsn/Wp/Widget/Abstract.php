@@ -6,7 +6,7 @@
  * Abstract Widget Class
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: Abstract.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: Abstract.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 abstract class IfwPsn_Wp_Widget_Abstract extends WP_Widget
 {

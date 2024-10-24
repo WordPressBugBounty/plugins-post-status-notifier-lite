@@ -6,7 +6,7 @@
  * Tries to reset the options set by the plugin
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: UninstallResetOptions.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: UninstallResetOptions.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 require_once dirname(__FILE__) . '/../UninstallInterface.php';
 

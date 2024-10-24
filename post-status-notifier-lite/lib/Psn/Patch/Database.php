@@ -7,7 +7,7 @@
  *
  * @author    Timo Reith <timo@ifeelweb.de>
  * @copyright Copyright (c) ifeelweb.de
- * @version   $Id: Database.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version   $Id: Database.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @package   
  */ 
 class Psn_Patch_Database implements IfwPsn_Wp_Plugin_Update_Patch_Interface

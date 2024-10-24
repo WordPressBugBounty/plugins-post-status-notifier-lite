@@ -6,7 +6,7 @@
  * Template engine factory/singleton to retrieve twig environment
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: Tpl.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: Tpl.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 class IfwPsn_Wp_Tpl
 {

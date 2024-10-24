@@ -6,7 +6,7 @@
  * Tries to delete the log file if it exists in case in can not be deleted by WP uninstall process
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: UninstallDeleteLog.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: UninstallDeleteLog.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 require_once dirname(__FILE__) . '/../UninstallInterface.php';
 

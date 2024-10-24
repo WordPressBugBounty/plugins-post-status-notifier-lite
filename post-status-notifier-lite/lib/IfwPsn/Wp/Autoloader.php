@@ -6,7 +6,7 @@
  * Autoloader
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $Id: Autoloader.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version  $Id: Autoloader.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  */
 class IfwPsn_Wp_Autoloader
 {

@@ -6,7 +6,7 @@
  * 
  *
  * @author    Timo Reith <timo@ifeelweb.de>
- * @version   $Id: Interface.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version   $Id: Interface.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @package   
  */
 interface IfwPsn_Wp_Model_Mapper_Interface 

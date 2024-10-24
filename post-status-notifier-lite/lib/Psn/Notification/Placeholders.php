@@ -3,7 +3,7 @@
  * This class handles the placeholders replacement
  *
  * @author      Timo Reith <timo@ifeelweb.de>
- * @version     $Id: Placeholders.php 3137090 2024-08-17 17:41:42Z worschtebrot $
+ * @version     $Id: Placeholders.php 3174969 2024-10-24 12:26:47Z worschtebrot $
  * @copyright   Copyright (c) ifeelweb.de
  * @package     Psn_Notification
  */

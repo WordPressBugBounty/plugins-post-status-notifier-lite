@@ -3,7 +3,7 @@
  * Rules controller
  *
  * @author   Timo Reith <timo@ifeelweb.de>
- * @version  $$Id: PsnRulesController.php 3137090 2024-08-17 17:41:42Z worschtebrot $$
+ * @version  $$Id: PsnRulesController.php 3174969 2024-10-24 12:26:47Z worschtebrot $$
  * @package  IfwPsn_Wp
  */
 class PsnRulesController extends PsnModelBindingController
